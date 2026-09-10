@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book a Table | Savora</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+SAVORA
+<span>RESTAURANT</span>
+</a>
+
+<ul class="nav-links"  id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="booking.html" class="active">Booking</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<img
+src="https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg"
+style="position:absolute;width:100%;height:100%;object-fit:cover;"
+alt="Dining">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<p class="small-title">
+RESERVATIONS
+</p>
+
+<h1>
+Reserve your
+<span>table.</span>
+</h1>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="section-heading">
+
+<p class="section-label">
+BOOKING
+</p>
+
+<h2>
+Make a Reservation
+</h2>
+
+</div>
+
+
+<form id="bookingForm" class="booking-form">
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+
+<input
+type="date"
+id="date"
+required>
+
+
+<select id="guests">
+
+<option value="">Number of Guests</option>
+
+<option>1 Guest</option>
+<option>2 Guests</option>
+<option>3 Guests</option>
+<option>4 Guests</option>
+<option>5 Guests</option>
+<option>6+ Guests</option>
+
+</select>
+
+
+<select>
+
+<option value="">Preferred Time</option>
+
+<option>12:00 PM</option>
+<option>1:00 PM</option>
+<option>2:00 PM</option>
+<option>6:00 PM</option>
+<option>7:00 PM</option>
+<option>8:00 PM</option>
+<option>9:00 PM</option>
+
+</select>
+
+
+<textarea
+placeholder="Special Request">
+</textarea>
+
+
+<button type="submit" class="primary-btn">
+
+Confirm Reservation
+
+</button>
+
+</form>
+
+</section>
+
+
+<footer class="footer">
+
+<div class="copyright">
+
+© 2026 Savora Restaurant. All rights reserved.
+
+</div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
