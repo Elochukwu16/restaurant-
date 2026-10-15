@@ -15,6 +15,10 @@ if (menuToggle) {
 
 }
 
+const video = document.getElementById("myVideo");
+
+video.playbackRate = 0.5;
+
 
 // Close menu when link is clicked
 
